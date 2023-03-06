@@ -1,0 +1,137 @@
+
+   #home-hero{
+    height: 100vh !important;
+    background-color: blue;
+   }
+   .main-heading{
+       color: #6E5A53;
+       font-size: 26px;
+   }
+   .about-section{
+    padding: 80px 0;
+    background-color: orange;
+
+   }
+   .underline{
+       height: 04px;
+       width: 4rem;
+       background-color: #f76c2f;
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   .bg-bg-light{
+       background-color: #f2f2f2;
+   }
+   #navbar {
+       background-color: #fff;
+       position: fixed;
+       top: -50px;
+       width: 100%;
+       display: block;
+       transition: top 0.3s;
+     }
+     
+     #navbar a {
+       float: left;
+       display: block;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 15px;
+       text-decoration: none;
+       font-size: 17px;
+     }
+     
+     #navbar a:hover {
+       background-color: #ddd;
+       color: black;
+     }
+     #home-bg{
+       background-color: #6E5A53;
+     }
+     .menu-icon{
+       width: 50px;
+     }
+     .hotel-logo{
+       margin-bottom:7px;
+       font-size:30px;
+     }
+     
+     .AiOutlineAlignCenter{
+       color: #fff;
+       cursor: pointer;
+       width: 50px;
+       height: 40px; 
+     }
+     
+     .BsChevronDown{
+       color: #fff;
+       width: 50px;
+       height: 40px;
+     }
+     .arrow-down-area.circle-design{
+      position: relative;
+      top: -105px;
+      left: 0;
+      right: 0;
+      transform: translate(-50%, -50%);
+      z-index: 9999;
+     }
+     .circle-design{
+       border: 1px solid #aaaaaa30;
+       border-radius: 50%;
+       width: 40px;
+       height: 40px;
+      //  background: #aaaaaa3f;
+       margin: 0 auto;
+     }
+     .arrow-down-area{
+       display: flex;
+       justify-content: center;
+       cursor: pointer;
+       transition-duration: .7s;
+       animation: 1.5s arrowdown infinite;
+     }
+     @keyframes arrowdown {
+       0%, to{
+         transform: translateY(-25%);
+         animation-timing-function: cubic-bezier(.8,0,1,1)
+       }
+       50%{
+         transform: none;
+             animation-timing-function: cubic-bezier(0,0,.2,1)
+       }
+       
+     }
+    //  @media screen and (max-width:800px) {
+    //   .arrow-down-area.circle-design{
+    //     display: none;
+    //    }
+    //  }
+     
+   .landing-text{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+     }
+     .landing-text h1{
+       font-size: 96px;
+       color: #000;
+     }
+     /*AboutUs Section*/
+     .btn-outline-taupe{
+       border: 1px solid #6E5A53;
+       border-radius: 0 !important;
+       transition: 0.2s ease-in;
+       padding: 8px 26px;
+       background-color: transparent;
+     }
+     .btn-outline-taupe:hover{
+      background-color: #6E5A53;
+       border-radius: 0;
+       color: #fff;
+     }
+     
+     .line-height{
+       height: 500px;
+     }
+   

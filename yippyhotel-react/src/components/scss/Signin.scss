@@ -1,0 +1,33 @@
+#hotel-bg{
+background-image: url('../../assets/images/yippyhotel1.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+min-height: 100vh;
+position: relative;
+}
+.form-control{
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.btn-color{
+  background-color: #0e1c36 !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+}  
+.profile-image-pic{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+.cardbody-color{
+  // background-color: #ebf2fa;
+  background-color: #fff;
+}
+a{
+  text-decoration: none;
+}
+.form-text{
+  font-size: 26px !important;
+}
